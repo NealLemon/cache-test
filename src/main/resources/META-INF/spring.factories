@@ -1,0 +1,5 @@
+# Auto Configure
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.example.cachetest.config.CompositeCacheConfiguration,\
+com.example.cachetest.config.RedisCompositeCacheConfiguration,\
+com.example.cachetest.config.CaffeineCompositeCacheConfiguration

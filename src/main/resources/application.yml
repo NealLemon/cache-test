@@ -1,0 +1,7 @@
+spring:
+  cache:
+    type: redis
+  redis:
+    host: 127.0.0.1
+test:
+  type: Caffeine
